@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'RemoveMPEG4MetaData' target in the 'RemoveMPEG4MetaData' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif

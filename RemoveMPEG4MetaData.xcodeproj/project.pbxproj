@@ -1,0 +1,288 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		27BEE3DB1596F8B70056A043 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27BEE3DA1596F8B70056A043 /* Foundation.framework */; };
+		27BEE3DE1596F8B70056A043 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 27BEE3DD1596F8B70056A043 /* main.m */; };
+		27BEE3EC1596F8EC0056A043 /* MPEG4Atom.m in Sources */ = {isa = PBXBuildFile; fileRef = 27BEE3E91596F8EC0056A043 /* MPEG4Atom.m */; };
+		27BEE3ED1596F8EC0056A043 /* MPEG4File.m in Sources */ = {isa = PBXBuildFile; fileRef = 27BEE3EB1596F8EC0056A043 /* MPEG4File.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		27BEE3D61596F8B70056A043 /* RemoveMPEG4MetaData */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = RemoveMPEG4MetaData; sourceTree = BUILT_PRODUCTS_DIR; };
+		27BEE3DA1596F8B70056A043 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		27BEE3DD1596F8B70056A043 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		27BEE3E01596F8B70056A043 /* RemoveMPEG4MetaData-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RemoveMPEG4MetaData-Prefix.pch"; sourceTree = "<group>"; };
+		27BEE3E81596F8EC0056A043 /* MPEG4Atom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPEG4Atom.h; sourceTree = "<group>"; };
+		27BEE3E91596F8EC0056A043 /* MPEG4Atom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPEG4Atom.m; sourceTree = "<group>"; };
+		27BEE3EA1596F8EC0056A043 /* MPEG4File.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPEG4File.h; sourceTree = "<group>"; };
+		27BEE3EB1596F8EC0056A043 /* MPEG4File.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPEG4File.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		27BEE3D31596F8B70056A043 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27BEE3DB1596F8B70056A043 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		27BEE3CB1596F8B70056A043 = {
+			isa = PBXGroup;
+			children = (
+				27BEE3DC1596F8B70056A043 /* RemoveMPEG4MetaData */,
+				27BEE3D91596F8B70056A043 /* Frameworks */,
+				27BEE3D71596F8B70056A043 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		27BEE3D71596F8B70056A043 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				27BEE3D61596F8B70056A043 /* RemoveMPEG4MetaData */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		27BEE3D91596F8B70056A043 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				27BEE3DA1596F8B70056A043 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		27BEE3DC1596F8B70056A043 /* RemoveMPEG4MetaData */ = {
+			isa = PBXGroup;
+			children = (
+				27BEE3E81596F8EC0056A043 /* MPEG4Atom.h */,
+				27BEE3E91596F8EC0056A043 /* MPEG4Atom.m */,
+				27BEE3EA1596F8EC0056A043 /* MPEG4File.h */,
+				27BEE3EB1596F8EC0056A043 /* MPEG4File.m */,
+				27BEE3DD1596F8B70056A043 /* main.m */,
+				27BEE3DF1596F8B70056A043 /* Supporting Files */,
+			);
+			path = RemoveMPEG4MetaData;
+			sourceTree = "<group>";
+		};
+		27BEE3DF1596F8B70056A043 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				27BEE3E01596F8B70056A043 /* RemoveMPEG4MetaData-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		27BEE3D51596F8B70056A043 /* RemoveMPEG4MetaData */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27BEE3E51596F8B70056A043 /* Build configuration list for PBXNativeTarget "RemoveMPEG4MetaData" */;
+			buildPhases = (
+				27BEE3D21596F8B70056A043 /* Sources */,
+				27BEE3D31596F8B70056A043 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RemoveMPEG4MetaData;
+			productName = RemoveMPEG4MetaData;
+			productReference = 27BEE3D61596F8B70056A043 /* RemoveMPEG4MetaData */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		27BEE3CD1596F8B70056A043 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MPEG4;
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "";
+			};
+			buildConfigurationList = 27BEE3D01596F8B70056A043 /* Build configuration list for PBXProject "RemoveMPEG4MetaData" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 27BEE3CB1596F8B70056A043;
+			productRefGroup = 27BEE3D71596F8B70056A043 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				27BEE3D51596F8B70056A043 /* RemoveMPEG4MetaData */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		27BEE3D21596F8B70056A043 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27BEE3DE1596F8B70056A043 /* main.m in Sources */,
+				27BEE3EC1596F8EC0056A043 /* MPEG4Atom.m in Sources */,
+				27BEE3ED1596F8EC0056A043 /* MPEG4File.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		27BEE3E31596F8B70056A043 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		27BEE3E41596F8B70056A043 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		27BEE3E61596F8B70056A043 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_IMPLICIT_SIGN_CONVERSION = YES;
+				CLANG_WARN_OBJCPP_ARC_ABI = YES;
+				CLANG_WARN_OBJC_IMPLICIT_ATOMIC_PROPERTIES = YES;
+				CLANG_WARN_SUSPICIOUS_IMPLICIT_CONVERSION = YES;
+				CLANG_WARN__EXIT_TIME_DESTRUCTORS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RemoveMPEG4MetaData/RemoveMPEG4MetaData-Prefix.pch";
+				GCC_TREAT_IMPLICIT_FUNCTION_DECLARATIONS_AS_ERRORS = YES;
+				GCC_TREAT_INCOMPATIBLE_POINTER_TYPE_WARNINGS_AS_ERRORS = YES;
+				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
+				GCC_WARN_ABOUT_MISSING_FIELD_INITIALIZERS = YES;
+				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_FOUR_CHARACTER_CONSTANTS = YES;
+				GCC_WARN_HIDDEN_VIRTUAL_FUNCTIONS = YES;
+				GCC_WARN_INITIALIZER_NOT_FULLY_BRACKETED = YES;
+				GCC_WARN_MULTIPLE_DEFINITION_TYPES_FOR_SELECTOR = YES;
+				GCC_WARN_NON_VIRTUAL_DESTRUCTOR = YES;
+				GCC_WARN_PEDANTIC = YES;
+				GCC_WARN_SHADOW = YES;
+				GCC_WARN_SIGN_COMPARE = YES;
+				GCC_WARN_STRICT_SELECTOR_MATCH = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNKNOWN_PRAGMAS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_LABEL = YES;
+				GCC_WARN_UNUSED_PARAMETER = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				RUN_CLANG_STATIC_ANALYZER = YES;
+			};
+			name = Debug;
+		};
+		27BEE3E71596F8B70056A043 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_IMPLICIT_SIGN_CONVERSION = YES;
+				CLANG_WARN_OBJCPP_ARC_ABI = YES;
+				CLANG_WARN_OBJC_IMPLICIT_ATOMIC_PROPERTIES = YES;
+				CLANG_WARN_SUSPICIOUS_IMPLICIT_CONVERSION = YES;
+				CLANG_WARN__EXIT_TIME_DESTRUCTORS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RemoveMPEG4MetaData/RemoveMPEG4MetaData-Prefix.pch";
+				GCC_TREAT_IMPLICIT_FUNCTION_DECLARATIONS_AS_ERRORS = YES;
+				GCC_TREAT_INCOMPATIBLE_POINTER_TYPE_WARNINGS_AS_ERRORS = YES;
+				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
+				GCC_WARN_ABOUT_MISSING_FIELD_INITIALIZERS = YES;
+				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_FOUR_CHARACTER_CONSTANTS = YES;
+				GCC_WARN_HIDDEN_VIRTUAL_FUNCTIONS = YES;
+				GCC_WARN_INITIALIZER_NOT_FULLY_BRACKETED = YES;
+				GCC_WARN_MULTIPLE_DEFINITION_TYPES_FOR_SELECTOR = YES;
+				GCC_WARN_NON_VIRTUAL_DESTRUCTOR = YES;
+				GCC_WARN_PEDANTIC = YES;
+				GCC_WARN_SHADOW = YES;
+				GCC_WARN_SIGN_COMPARE = YES;
+				GCC_WARN_STRICT_SELECTOR_MATCH = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNKNOWN_PRAGMAS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_LABEL = YES;
+				GCC_WARN_UNUSED_PARAMETER = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				RUN_CLANG_STATIC_ANALYZER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		27BEE3D01596F8B70056A043 /* Build configuration list for PBXProject "RemoveMPEG4MetaData" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27BEE3E31596F8B70056A043 /* Debug */,
+				27BEE3E41596F8B70056A043 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		27BEE3E51596F8B70056A043 /* Build configuration list for PBXNativeTarget "RemoveMPEG4MetaData" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27BEE3E61596F8B70056A043 /* Debug */,
+				27BEE3E71596F8B70056A043 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 27BEE3CD1596F8B70056A043 /* Project object */;
+}
