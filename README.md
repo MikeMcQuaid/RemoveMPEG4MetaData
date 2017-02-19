@@ -15,5 +15,5 @@ xcodebuild # or make -C RemoveMPEG4MetaData/
 [Mike McQuaid](mailto:mike@mikemcquaid.com)
 
 ## License
-RemoveMPEG4MetaData is licensed under the [MIT License](http://en.wikipedia.org/wiki/MIT_License).
+RemoveMPEG4MetaData is licensed under the [GPLv3 License](https://en.wikipedia.org/wiki/GNU_General_Public_License).
 The full license text is available in [LICENSE.txt](https://github.com/mikemcquaid/RemoveMPEG4MetaData/blob/master/LICENSE.txt).
